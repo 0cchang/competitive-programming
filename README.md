@@ -22,23 +22,9 @@ def debug(*args):
 
 # Main function to solve the problem
 def solve():
-    n = input_str().split(';');
-    res = 0
-    for probs in n:
-        if "-" in probs:
-            start, end = probs.split("-")
-            res += int(end) - int(start) + 1
-        else:
-            res += 1
     
-    # Example input format:
-    # n = input_int()  # Single integer
-    # arr = input_list()  # List of integers
-    # You can process inputs in various formats as required
-
-    # Write your solution logic here
     
-    print(res)  # Remove once logic is added
+    pass # Remove once logic is added
 
 # Entry point
 if __name__ == "__main__":
